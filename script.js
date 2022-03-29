@@ -1,12 +1,12 @@
-const listsContainer = document.querySelector('[data-lists')
-const newListForm = document.querySelector('[data-new-list-form')
-const newListInput = document.querySelector('[data-new-list-input')
+const listsContainer = document.querySelector('[data-lists]')
+const newListForm = document.querySelector('[data-new-list-form]')
+const newListInput = document.querySelector('[data-new-list-input]')
 const deleteListButton = document.querySelector('[data-delete-list-button]')
-const listDisplayContainer = document.querySelector('[data-list-display-container')
-const listTitleElement = document.querySelector('[data-list-title')
-const listCountElement = document.querySelector('[data-list-count')
+const listDisplayContainer = document.querySelector('[data-list-display-container]')
+const listTitleElement = document.querySelector('[data-list-title]')
+const listCountElement = document.querySelector('[data-list-count]')
 const tasksContainer = document.querySelector('[data-tasks]')
-const taskTemplate = document.getElementById('task-template')
+const taskTemplate = document.getElementById('task-template]')
 const newTaskForm = document.querySelector('[data-new-task-form]')
 const newTaskInput = document.querySelector('[data-new-task-input]')
 const clearCompleteTaskButton = document.querySelector('[data-clear-complete-tasks-button]')
@@ -73,10 +73,6 @@ function createList(name) {
 
 function createTask(name) {
     return { id: Date.now().toString(), name: name, complete: false }
-}
-
-function createTask(name) {
-
 }
 
 function saveAndRender() {
