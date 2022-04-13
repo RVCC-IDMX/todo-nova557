@@ -1,6 +1,6 @@
-const listsContainer = document.querySelector('[data-lists')
-const newListForm = document.querySelector('[data-new-list-form')
-const newListInput = document.querySelector('[data-new-list-input')
+const listsContainer = document.querySelector('[data-lists]')
+const newListForm = document.querySelector('[data-new-list-form]')
+const newListInput = document.querySelector('[data-new-list-input]')
 
 const LOCAL_STORAGE_LIST_KEY = 'task.lists'
 let lists = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || []
